@@ -3,6 +3,7 @@ import './App.css'
 import LoadingScreen from './components/LoadingScreen'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import About from './components/About'
 import TechStack from './components/TechStack'
 import Projects from './components/Projects'
 import Certificates from './components/Certificates'
@@ -34,6 +35,7 @@ function App() {
       <Navbar />
       <main className="pt-20">
         <Hero />
+        <About />
         <TechStack />
         <Projects />
         <Certificates />

@@ -5,7 +5,8 @@ export default function Navbar() {
     <nav className="w-full h-20 bg-green-950 border-b border-emerald-900 fixed top-0 left-0 z-50 flex items-center justify-between px-12">
       <div className="font-jersey text-green-300 text-3xl">Fadghamm.</div>
       <div className="flex items-center gap-8">
-        <a href="#about" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">About</a>
+        <a href="#about" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">Home</a>
+        <a href="#about-detail" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">About</a>
         <a href="#projects" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">Projects</a>
         <a href="#certificates" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">Certificates</a>
         <a href="#skills" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">Skills</a>

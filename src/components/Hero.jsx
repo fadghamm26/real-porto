@@ -6,10 +6,6 @@ export default function Hero() {
       <div className="max-w-[1440px] mx-auto w-full px-[75px] flex justify-between items-center">
         {/* Left - Text */}
         <div className="max-w-[694px]">
-          <p className="font-jersey text-white text-6xl mb-10 animate-slide-up animate-delay-1">
-            Halo, <br />
-            saya Muhammad Vito Fadgham
-          </p>
           <p className="font-noto text-green-300 text-2xl leading-[70.4px] animate-slide-up animate-delay-2">
             &ldquo;Seorang mahasiswa yang bersemangat dalam pengembangan web, desain UI/UX, dan teknologi untuk menciptakan solusi digital yang bermanfaat.&rdquo;
           </p>

@@ -2,6 +2,8 @@ import { useState } from 'react'
 import deboraImg from '../assets/debora.png'
 import floodImg from '../assets/flood.svg'
 import lifesyncImg from '../assets/lifesync.svg'
+import agroImg from '../assets/agroscan.png'
+import portoImg from '../assets/porto.png'
 
 const projects = [
   {
@@ -22,6 +24,18 @@ const projects = [
     img: lifesyncImg,
     github: '#',
   },
+  {
+    title: 'AgroScan AI',
+    desc: 'website machine learning klasifikasi penyakit pada daun tanaman menggunakan model CNN.',
+    img: agroImg,
+    github: '#',
+  },
+  {
+    title: 'Portofolio',
+    desc: 'website portofolio pribadi untuk menampilkan projek-projek yang sudah saya buat dan biodata saya.',
+    img: portoImg,
+    github: '#',
+  },
 ];
 
 export default function Projects() {
@@ -39,9 +53,12 @@ export default function Projects() {
     } else if (diff === 1 || diff === -(projects.length - 1)) {
       // Right card
       return 'z-20 scale-75 opacity-50 translate-x-[280px]'
-    } else {
+    } else if (diff === projects.length - 1 || diff === -1) {
       // Left card
       return 'z-20 scale-75 opacity-50 -translate-x-[280px]'
+    } else {
+      // Hidden cards
+      return 'z-10 scale-50 opacity-0 translate-x-0'
     }
   }
 
