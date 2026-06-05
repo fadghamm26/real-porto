@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-green-950 border-t border-green-300 py-5">
+    <footer className="w-full bg-gradient-to-b from-gray-950 to-green-950 py-5">
       <div className="max-w-[1440px] mx-auto px-20 flex items-center justify-between">
         <div className="font-jersey text-green-300 text-5xl">Fadghamm.</div>
         <div className="flex items-center gap-6">

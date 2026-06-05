@@ -8,7 +8,7 @@ export default function TechStack() {
   const items = [...techStack, ...techStack];
 
   return (
-    <section className="w-full h-40 bg-green-900 border-y border-green-300 overflow-hidden relative">
+    <section className="w-full h-40 bg-gradient-to-b from-emerald-800 to-green-900 overflow-hidden relative">
       <div className="absolute inset-0 flex items-center">
         <div className="flex gap-8 animate-marquee whitespace-nowrap">
           {items.map((tech, i) => (

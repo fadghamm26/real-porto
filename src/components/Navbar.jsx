@@ -2,7 +2,7 @@ import cvFile from '../assets/CV.pdf'
 
 export default function Navbar() {
   return (
-    <nav className="w-full h-20 bg-green-950 border-b border-emerald-900 fixed top-0 left-0 z-50 flex items-center justify-between px-12">
+    <nav className="w-full h-20 bg-green-950 fixed top-0 left-0 z-50 flex items-center justify-between px-12">
       <div className="font-jersey text-green-300 text-3xl">Fadghamm.</div>
       <div className="flex items-center gap-8">
         <a href="#about" className="font-jersey text-green-300 text-2xl hover:text-green-100 transition-colors">Home</a>
