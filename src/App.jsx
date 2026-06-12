@@ -8,6 +8,7 @@ import TechStack from './components/TechStack'
 import Projects from './components/Projects'
 import Certificates from './components/Certificates'
 import Skills from './components/Skills'
+import Sosmed from './components/Sosmed'
 import Footer from './components/Footer'
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
         <Projects />
         <Certificates />
         <Skills />
+        <Sosmed />
       </main>
       <Footer />
     </div>
